@@ -1,0 +1,17 @@
+<resources>
+    <string name="text_label_confirmed">ติดเชื้อสะสม</string>
+    <string name="text_label_deaths">เสียชีวิตสะสม</string>
+    <string name="text_label_recovered">หายป่วยสะสม</string>
+    <string name="text_label_hospitalized">กำลังรักษา</string>
+    <string name="text_label_new_confirmed">ติดเชื้อใหม่</string>
+    <string name="text_label_new_deaths">เสียชีวิตเพิ่ม</string>
+    <string name="text_label_new_recovered">หายป่วยใหม่</string>
+    <string name="text_label_new_hospitalized">รักษาเพิ่ม</string>
+    <string name="text_label_updated_time">อัปเดตล่าลุด:\u0020</string>
+    <string name="text_label_app_title">ข้อมูลโควิด 19 ประจำวันในประเทศไทย</string>
+    <string name="text_label_placeholder">กำลังปรับข้อมูล…</string>
+
+    <string name="menu_label_refresh">โหลดใหม่</string>
+
+    <string name="notify_label_refresh_complete">โหลดใหม่แล้ว!</string>
+</resources>

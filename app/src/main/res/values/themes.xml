@@ -1,0 +1,65 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.CovDecem" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/color_indigo_700</item>
+        <item name="colorPrimaryVariant">@color/color_indigo_800_dark</item>
+        <item name="colorOnPrimary">@color/color_white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/color_amber_700</item>
+        <item name="colorSecondaryVariant">@color/color_amber_700_dark</item>
+        <item name="colorOnSecondary">@color/color_white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="n">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="ThemeOverlay.CovDecem.Surface_background" parent="">
+        <item name="android:background">@color/color_white</item>
+    </style>
+
+    <style name="Widget.CovDecem.Toolbar.Main_Appbar" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <item name="titleTextAppearance">@style/TextAppearance.CovDecem.Toolbar_title</item>
+    </style>
+
+    <style name="Divider.CovDecem.Background" parent="">
+        <item name="android:background">@color/color_mono_mid_grey</item>
+    </style>
+
+    <style name="TextAppearance.CovDecem.Confirmed_Number" parent="TextAppearance.CovDecem.Body_Number">
+        <item name="android:textColor">@color/color_red_700</item>
+    </style>
+
+    <style name="TextAppearance.CovDecem.Recovered_Number" parent="TextAppearance.CovDecem.Body_Number">
+        <item name="android:textColor">@color/color_green_700</item>
+    </style>
+
+    <style name="TextAppearance.CovDecem.Hospitalized_Number" parent="TextAppearance.CovDecem.Body_Number">
+        <item name="android:textColor">@color/color_blue_700</item>
+    </style>
+
+    <style name="TextAppearance.CovDecem.Deaths_Number" parent="TextAppearance.CovDecem.Body_Number">
+        <item name="android:textColor">@color/color_grey_800</item>
+    </style>
+
+    <style name="CardView.CovDecem.Confirmed" parent="CardView.CovDecem.Default">
+        <item name="strokeColor">@color/color_red_500</item>
+        <item name="strokeWidth">@dimen/spacing_tiny</item>
+    </style>
+
+    <style name="CardView.CovDecem.Recovered" parent="CardView.CovDecem.Default">
+        <item name="strokeColor">@color/color_green_500</item>
+        <item name="strokeWidth">@dimen/spacing_tiny</item>
+    </style>
+
+    <style name="CardView.CovDecem.Hospitalized" parent="CardView.CovDecem.Default">
+        <item name="strokeColor">@color/color_blue_500</item>
+        <item name="strokeWidth">@dimen/spacing_tiny</item>
+    </style>
+
+    <style name="CardView.CovDecem.Deaths" parent="CardView.CovDecem.Default">
+        <item name="strokeColor">@color/color_grey_800</item>
+        <item name="strokeWidth">@dimen/spacing_tiny</item>
+    </style>
+
+</resources>

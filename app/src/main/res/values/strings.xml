@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name" translatable="false">CovDecem</string>
+    <string name="text_label_new_case_number" translatable="false">5000</string>
+    <string name="text_label_display_new_case_number" translatable="false">%d</string>
+    <string name="text_label_summary_number" translatable="false">200000</string>
+    <string name="text_label_confirmed">Confirmed</string>
+    <string name="text_label_deaths">Deaths</string>
+    <string name="text_label_recovered">Recovered</string>
+    <string name="text_label_hospitalized">Hospitalized</string>
+    <string name="text_label_new_confirmed">New Confirmed</string>
+    <string name="text_label_new_deaths">New Deaths</string>
+    <string name="text_label_new_recovered">New Recovered</string>
+    <string name="text_label_new_hospitalized">New Hospitalized</string>
+    <string name="text_label_updated_time">Latest updated:\u0020</string>
+    <string name="text_label_app_title">Thailand daily Covid-19 data.</string>
+    <string name="text_label_placeholder">Updating…</string>
+
+    <string name="menu_label_refresh">Refresh</string>
+
+    <string name="notify_label_refresh_complete">Refresh completed!</string>
+</resources>
