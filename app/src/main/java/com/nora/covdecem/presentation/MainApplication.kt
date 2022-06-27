@@ -60,7 +60,7 @@ class MainApplication : Application() {
         val databaseModule = module {
             single {
                 Room.databaseBuilder(
-                    androidApplication(),
+                    androidContext(),
                     AppDatabase::class.java,
                     "CASE_DATABASE"
                 ).build()
